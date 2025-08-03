@@ -24,20 +24,17 @@ jobs:
 
       - name: Restore dependencies
         run: dotnet restore
-        working-directory: pages-test
 
       - name: Build project
         run: dotnet build --configuration Release --no-restore
-        working-directory: pages-test
 
       - name: Run app
         run: dotnet run --configuration Release
-        working-directory: pages-test
 
       - name: Upload static files to Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: pages-test/output
+          path: output
 
   deploy:
     needs: build
