@@ -5,22 +5,23 @@ namespace somi_thoughts
     internal class Program
     {
         static void Main(string[] args)
-        {            
+        {
             string layout = File.ReadAllText("layout.html");
             string inputDir = "thoughts";
             string outputDir = "output";
 
-            if(Directory.Exists(outputDir))
+            if (Directory.Exists(outputDir))
                 Directory.Delete(outputDir, true);
             Directory.CreateDirectory(outputDir);
             Directory.CreateDirectory(Path.Combine(outputDir, "thoughts"));
 
             foreach (var pagePath in Directory.GetFiles(inputDir))
             {
-                var md = File.ReadAllText(pagePath);
-                string finalHtml = SetContentMarkdown(layout, md);
+                string thoughtId = Path.GetFileNameWithoutExtension(pagePath);
                 var fileName = Path.GetFileNameWithoutExtension(pagePath) + ".html";
-                var outputPath = Path.Combine(outputDir,"thoughts", fileName);
+                var md = $"<div class=\"thought-title-holder\">Thought {thoughtId[..3]}: <span  class=\"thought-title\">{thoughtId[4..]}</span></div>"+ File.ReadAllText(pagePath);
+                string finalHtml = SetContentMarkdown(layout, md);
+                var outputPath = Path.Combine(outputDir, "thoughts", fileName);
                 File.WriteAllText(outputPath, finalHtml);
             }
 
@@ -38,9 +39,9 @@ namespace somi_thoughts
             var index = SetTag(layout, "content", thoughsHtml);
             thoughsHtml += "</ul>";
             File.WriteAllText(Path.Combine(outputDir, "index.html"), index);
-            
-            
-            var about = SetTag(layout, "content", 
+
+            File.Copy("MozillaText-VariableFont_wght.ttf", $"{outputDir}/MozillaText-VariableFont_wght.ttf");
+            var about = SetTag(layout, "content",
 $@"
 <p>
 This website holds some raw unfiltered thoughts that I want to write down anonymously. They are written from me to <span class=""intro"">S o m i</span>. See them as writings from from a guy with a mild psychosis written to his crush that only exist in his mind.
@@ -50,17 +51,18 @@ This website holds some raw unfiltered thoughts that I want to write down anonym
 Anonymous
 </h2>
 <p>
-Some of these thoughts are risky so just in case someone tries, the domain is bought from an anonomoys domain registry using crypto I got from a shady crypto exchange. The email account is created using a new prepaid sim card. Everything from account creation and commits are done on a VM running Whonix. First time I actually needed privacy and it was quite a hastle especially how each site blocks Tor activity. Anyways I tried my best to stay hidden, I hope it stays that way.
+Some of these thoughts are risky so just in case someone tries, the domain is bought from an anonymous domain registry using crypto I got from a shady crypto exchange. The email account is created using a new prepaid sim card. Everything from account creation and commits are done on a VM running Whonix. First time I actually needed privacy and it was quite a haste especially how each site blocks Tor activity. Although most of my thoughts are true, some identifying details are altered. Anyways I tried my best to stay hidden, I hope it stays that way.
 </p>
 <br/>
 <h2>
 Contact
 </h2>
 <p>
-If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via GitHub. Be aware that I only sporadiclly log in. 
+// If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a>. Be aware that I only sporadically log in. 
 </p>
 ");
             File.WriteAllText(Path.Combine(outputDir, "about.html"), about);
+            Console.WriteLine("Done!");
         }
 
         private static string SetContentMarkdown(string layout, string content)

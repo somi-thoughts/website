@@ -10,6 +10,9 @@
 
   <ItemGroup>
     <Content Include="$(ProjectDir)thoughts\**" CopyToOutputDirectory="Always" />
+    <None Update="MozillaText-VariableFont_wght.ttf" >
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

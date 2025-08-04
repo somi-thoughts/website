@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Somi Thoughts</title>
     <style>
+
+        @font-face {
+  font-family: 'Mozilla Text';
+  src: url('/MozillaText-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 1000; /* enables variable weights */
+  font-style: normal;
+  font-display: swap;
+}
+
         :root {
             --bg-color: #121212;
             --text-color: #e0e0e0;
@@ -36,7 +45,7 @@
         .page-title {
             text-align: center;
             font-size: 1.8rem;
-            font-weight: 600;
+            font-weight: 900;
             color: #ffffff;
             margin-bottom: 1rem;
         }
@@ -144,10 +153,16 @@
             list-style: katakana-iroha;
             margin-left: 40px;
         }
+
+        .thought-title-holder{
+            color: #b9b9b9;
+        }
+
+        .thought-title{
+            font-weight: bold;;
+        }
+        
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
