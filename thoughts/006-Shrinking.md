@@ -1,0 +1,10 @@
+Hi Somi, lately / over the last years? I have had the feeling that the space between me and my interests is growing. I do not mean the standard feeling of wanting to do something but not wanting to _do_ it. It's more that the world looks foggy and saturated.
+
+For example, when I was a child, I constantly was designing my android home screen with widgets, pirating apps. I though about making my own apps and could see the space my app would occupy in the wider app landscape. I had a sense of the state of the android market that I do not remotely have with the modern day play store.
+
+With android I can say that the amount of apps did increase immensely and has become more segmented. But this is not the case for every subject I care about. Game engine developments, software architecture debates, C# IDEs, my favorite shows and political commentators. It is all going the same way. Even though I have more experience now with these subjects, the space is feeling larger to form any opinion on. Even new interests are suffering from this.
+
+It used to be the case that I would think of a cool project idea like making an alternative Spotify client, and be exited about making a small SFML app doing some REST requests. Now I think about the pain of authentication, changing APIs, the dread of going trough all of Spotify specific abstractions and jumping through their DRM hoops to get any audio decoded. 
+
+This feeling is impacting both my ability to form opinions and take action. Is it growing pessimism? am I just getting older? Either way I do not want to think this way. I rather be exited about large tasks than stopping because of perceived mountains in the distance. I rather form extreme opinions quickly and refine later on than feel incapable of wrapping my head around something. Creating this site was a good step I guess. Let's shoot for getting the counter up to 999 thoughts Somi. May they be broad and deep whilst full of arrogance and overconfidence. As better that than to have no Somi thoughts at all.
+
