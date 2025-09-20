@@ -58,7 +58,7 @@ Some of these thoughts are risky so just in case someone tries, the domain is bo
 Contact
 </h2>
 <p>
-// If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a>. Be aware that I only sporadically log in. 
+If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a>. Be aware that I only sporadically log in. 
 </p>
 ");
             File.WriteAllText(Path.Combine(outputDir, "about.html"), about);
