@@ -26,7 +26,7 @@ namespace somi_thoughts
             }
 
             string thoughsHtml = "";
-            thoughsHtml += "<ul class=link-holder>";
+            thoughsHtml += "<ol reversed class=link-holder>";
             for (int i = 0; i < 1; i++)
             {
                 foreach (var pagePath in Directory.GetFiles(inputDir).OrderDescending())
