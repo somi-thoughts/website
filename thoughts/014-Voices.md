@@ -1,4 +1,4 @@
-Somi,
+Hi Somi,
 
 I can't deal with the amount of voices here. Three different conversations going on around me and I can't leave. I am not engaging with any of them. Somehow every second the voices feel louder and louder. I can't think or daydream without getting snapped out of it by the sound of someone laughing. Most days I can tolerate this. Why is it so hard today? Please no.. that group splitting up their conversation.. FFF now it is 4 conversation group. I rarely am stuck somewhere with many people talking where I can't just get away or put my headphones on. I already left halfway two times before I can't afford to do that again. Is this how autists feel every day? 
 
