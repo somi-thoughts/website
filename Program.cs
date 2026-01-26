@@ -44,7 +44,7 @@ namespace somi_thoughts
             var about = SetTag(layout, "content",
 $@"
 <p>
-This website holds some raw unfiltered thoughts that I want to write down anonymously. They are written from me to <span class=""intro"">S o m i</span>. See them as writings from from a guy with a mild psychosis written to his crush that only exist in his mind.
+This website holds some raw unfiltered thoughts that I want to write down anonymously. They are written from me to <span class=""intro"">Somi</span>. See them as writings from from a guy with a mild psychosis written to his crush that only exist in his mind.
 </p>
 
 <h2>
@@ -58,7 +58,7 @@ Some of these thoughts are risky so just in case someone tries, the domain is bo
 Contact
 </h2>
 <p>
-If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a>. Be aware that I only sporadically log in. 
+If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a> Nvm, google blocked my email. That's what I get from using gmail through Tor.
 </p>
 ");
             File.WriteAllText(Path.Combine(outputDir, "about.html"), about);
