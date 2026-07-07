@@ -1,0 +1,3 @@
+Dear Somi,
+
+Today I was searching for vegetarian cheddar cheese (most cheese are made using animal rennet here) in my local grocery shop, when I saw a heart shaped pepperoni pizza in the frozen isle. I stared at the alien object and felt sad. It was the perfect encapsulation of the two negative feelings I was carrying that day. The heart reminded me of my loneliness being surrounded by people I will unable to ever get romantic relationship with, making receiving or gifting heart shaped objects foreign to me. Secondly whenever I browse for food, my life long religious diet limits my selection, making half of the store restricted, just like the pepperoni on that pizza.
