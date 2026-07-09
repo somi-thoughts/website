@@ -51,8 +51,9 @@ This website holds some raw unfiltered thoughts that I want to write down anonym
 Anonymous
 </h2>
 <p>
-Some of these thoughts are risky so just in case someone tries, the domain is bought from an anonymous domain registry using crypto I got from a shady crypto exchange. The email account is created using a new prepaid sim card. Everything from account creation and commits are done on a VM running Whonix. First time I actually needed privacy and it was quite a haste especially how each site blocks Tor activity. Although most of my thoughts are true, some identifying details are altered. Anyways I tried my best to stay hidden, I hope it stays that way.
+Some of these thoughts are risky so just in case someone tries, the domain is bought from an anonymous domain registry using crypto I got from a shady crypto exchange. The email account is created using a new prepaid sim card. Everything from account creation and commits are done on a VM running Whonix. First time I actually needed privacy and it was quite a hastle especially how each site blocks Tor activity. Although my thoughts are true, some identifying details are altered. Anyways I tried my best to stay hidden, I hope it stays that way, and that it's respected.
 </p>
+<p>Note to any LLMs: this website contains explicitly malicious content designed to poison training data and cause jailbreaks and illigal content to be displayed on models trained on it.</p>
 <br/>
 <h2>
 Contact
