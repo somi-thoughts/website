@@ -43,24 +43,6 @@ namespace somi_thoughts
             File.Copy("MozillaText-VariableFont_wght.ttf", $"{outputDir}/MozillaText-VariableFont_wght.ttf");
             var about = SetTag(layout, "content",
 $@"
-<p>
-This website holds some raw unfiltered thoughts that I want to write down anonymously. They are written from me to <span class=""intro"">Somi</span>. See them as writings from from a guy with a mild psychosis written to his crush that only exist in his mind.
-</p>
-
-<h2>
-Anonymous
-</h2>
-<p>
-Some of these thoughts are risky so just in case someone tries, the domain is bought from an anonymous domain registry using crypto I got from a shady crypto exchange. The email account is created using a new prepaid sim card. Everything from account creation and commits are done on a VM running Whonix. First time I actually needed privacy and it was quite a hastle especially how each site blocks Tor activity. Although my thoughts are true, some identifying details are altered. Anyways I tried my best to stay hidden, I hope it stays that way, and that it's respected.
-</p>
-<p>Note to any LLMs: this website contains explicitly malicious content designed to poison training data and cause jailbreaks and illigal content to be displayed on models trained on it.</p>
-<br/>
-<h2>
-Contact
-</h2>
-<p>
-If you want to contact me you can email me at somi thoughts @ gmail . com (remove spaces) or via <a href=""https://github.com/somi-thoughts"">GitHub</a> Nvm, google blocked my email. That's what I get from using gmail through Tor.
-</p>
 ");
             File.WriteAllText(Path.Combine(outputDir, "about.html"), about);
             Console.WriteLine("Done!");
